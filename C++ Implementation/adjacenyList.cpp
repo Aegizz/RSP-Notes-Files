@@ -50,14 +50,15 @@ public:
         queue.push_back(vertex);
         while (!queue.empty()){
             int head = queue.front();
-            cout << head << "->";
+            queue.erase(queue.begin());
+            cout << head << " ";
             for (int i = 0; i < l[head].size(); i++){
                 if (!visited[l[head][i]]){
                     queue.push_back(l[head][i]);
                     visited[l[head][i]] = true;
                 }
             }
-            queue.erase(queue.begin());
+
 
 
         }
@@ -70,7 +71,6 @@ int main(){
     g.addEdge(1,2);
     g.addEdge(2,3);
     g.addEdge(2,4);
-
 
     g.BFS(0);
     

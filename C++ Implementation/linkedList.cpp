@@ -42,6 +42,49 @@ class node{
             return NULL;
         }
 };
+
+
+node * createList(int n){
+    node * tail = new node(n);
+    vector<node *> nodes{};
+    nodes.resize(n);
+    nodes[n-1] = tail;
+    for (int i = n - 1; i > 0; i--){
+        nodes[i-1] = (new node(i, nodes[i]));
+    }
+
+    return nodes[0];
+}
+
+void printList(node * head){
+    while (head != NULL){
+        cout << head->data << " ";
+        head = head->next;
+    }
+}
+int main(){
+    node * head = createList(10);
+    printList(head);
+    cout << "\n" <<head->search(5)->data;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // class linkList{
 //     protected:
 //         node * head;
@@ -95,28 +138,3 @@ class node{
 //         };
     
 // };
-
-node * createList(int n){
-    node * tail = new node(n);
-    vector<node *> nodes{};
-    nodes.resize(n);
-    nodes[n-1] = tail;
-    for (int i = n - 1; i > 0; i--){
-        nodes[i-1] = (new node(i, nodes[i]));
-    }
-
-    return nodes[0];
-}
-
-void printList(node * head){
-    while (head != NULL){
-        cout << head->data << " ";
-        head = head->next;
-    }
-}
-int main(){
-    node * head = createList(10);
-    printList(head);
-    cout << "\n" <<head->search(5)->data;
-}
-

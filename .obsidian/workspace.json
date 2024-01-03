@@ -4,143 +4,83 @@
     "type": "split",
     "children": [
       {
-        "id": "dc562b94729541a0",
+        "id": "1ffdad48401ecefb",
         "type": "tabs",
         "children": [
           {
-            "id": "e06476ea76e730cd",
+            "id": "763b7eb71e6485f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "BehavourialQuestions.md",
+                "file": "Interview Revision/Factory Design Pattern.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9ae7efe7954635aa",
+            "id": "5982b559cf582040",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Revision/Interview Revision.md",
+                "file": "Interview Revision/Union Find- Disjoint set.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "bd5a533e9fb0c2a5",
+            "id": "82a3db27de150ad4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Revision/Dijkstra's Algorithm.md",
+                "file": "Interview Revision/Quick Select Algorithm.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "10f66df02a8781d2",
+            "id": "63f56c171d2dd7ba",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Revision/Bellman-Ford Algorithm.md",
+                "file": "Interview Revision/AVL Tree.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "125abbfeb2c67d92",
+            "id": "ed7e348aa23aab55",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Revision/Spanning Tree.md",
+                "file": "Interview Revision/Red-Black Tree.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eac77a2ec58f9765",
+            "id": "f04160b15d4c2c30",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interview Revision/Trie Data Structure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e5d8e0a7c8c7f11c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview Revision/Hash Table.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "494959a3ac138967",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview Revision/Amortised Analysis.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a86fb7d46df814d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview Revision/Bit Manipulation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1087b556a06cca2f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interview Revision/Singleton Design Pattern.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ca133f95d1c3f360",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Factory Design Pattern.md",
+                "file": "Interview Revision/AVL Tree.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -206,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Factory Design Pattern.md",
+                "file": "Interview Revision/AVL Tree.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Factory Design Pattern.md",
+                "file": "Interview Revision/AVL Tree.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -246,7 +186,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Factory Design Pattern.md"
+                "file": "Interview Revision/AVL Tree.md"
               }
             }
           }
@@ -267,23 +207,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ca133f95d1c3f360",
+  "active": "f04160b15d4c2c30",
   "lastOpenFiles": [
-    "Interview Revision/Singleton Design Pattern.md",
-    "Factory Design Pattern.md",
-    "Interview Revision/Bit Manipulation.md",
-    "Interview Revision/Amortised Analysis.md",
-    "Interview Revision/Hash Table.md",
-    "Interview Revision/Trie Data Structure.md",
-    "Interview Revision/Spanning Tree.md",
-    "Interview Revision/Bellman-Ford Algorithm.md",
-    "Pasted image 20240103145402.png",
+    "Interview Revision/Red-Black Tree.md",
+    "Interview Revision/Kruskal's MST Algorithm.md",
+    "Interview Revision/AVL Tree.md",
+    "Interview Revision/Quick Select Algorithm.md",
+    "Untitled",
     "Interview Revision/Dijkstra's Algorithm.md",
+    "Interview Revision/Union Find- Disjoint set.md",
+    "Interview Revision/Factory Design Pattern.md",
+    "Interview Revision/Singleton Design Pattern.md",
+    "Interview Revision/Hash Table.md",
+    "Interview Revision/Amortised Analysis.md",
+    "Interview Revision/Bit Manipulation.md",
+    "Interview Revision/Spanning Tree.md",
+    "Interview Revision/Trie Data Structure.md",
+    "Interview Revision/Bellman-Ford Algorithm.md",
+    "BehavourialQuestions.md",
+    "Factory Design Pattern.md",
+    "Pasted image 20240103145402.png",
     "Interview Revision/Interview Revision.md",
     "Pasted image 20240103143615.png",
     "Pasted image 20240103142947.png",
     "Interview Revision",
-    "Pasted image 20240103141910.png",
-    "BehavourialQuestions.md"
+    "Pasted image 20240103141910.png"
   ]
 }
